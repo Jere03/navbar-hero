@@ -1,0 +1,60 @@
+
+
+  body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  
+  .hero-info-paragraph,
+  a{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  h2{
+    color: white;
+  }
+  .hero-boton {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .hero-card {
+    width: 300px;
+    flex-shrink: 0;
+    background-color: rgb(36, 33, 33);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .hero-card img {
+    width: 100%;
+  }
+
+  
+ 
+  .hero-section {
+    display: flex;
+    gap: 50px;
+    max-width: 900px;
+    align-items: center;
+  }
+  
+  section {
+    margin-top: 100px;
+  }
+  
+.info-section{
+     margin: 500px 0 500px 0;
+     max-width: 70%; 
+}
